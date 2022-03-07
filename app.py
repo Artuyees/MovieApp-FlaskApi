@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route("/homepage", methods=["GET"])
 def hello_world():
-    return {"1": {
+    return {"movies": [ {
     "Title": "Nightmare Alley",
 
     "Released": "17 Dec 2021",
@@ -25,7 +25,7 @@ def hello_world():
       "https://m.media-amazon.com/images/M/MV5BOTI4NDhhNGEtZjQxZC00ZTRmLThmZTctOGJmY2ZlOTc0ZGY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
     "Response": "True",
   },
-  "2": {
+   {
     "Title": "Spider-Man",
 
     "Released": "03 May 2002",
@@ -39,7 +39,7 @@ def hello_world():
       "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
     "Response": "True",
   },
-  "3":{
+  {
     "Title": "Avatar",
 
     "Released": "18 Dec 2009",
@@ -54,7 +54,7 @@ def hello_world():
       "https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
     "Response": "True",
   },
-  "4":{
+  {
     "Title": "Titanic",
     "Released": "19 Dec 1997",
     "Runtime": "194 min",
@@ -67,7 +67,7 @@ def hello_world():
       "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
     "Response": "True",
   },
-  "5": {
+   {
     "Title": "Pierwszy Polak na Marsie",
 
     "Released": "23 Jun 2017",
@@ -81,4 +81,4 @@ def hello_world():
     "Poster":
       "https://m.media-amazon.com/images/M/MV5BYTRkOWY1MDktZWM5YS00OTM4LWIxYmUtZDUyMTJiZWQxOTAzXkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_SX300.jpg",
     "Response": "True",
-  }}
+  }]}
