@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/homepage")
+@app.route("/homepage", methods=["GET"])
 def hello_world():
     return {"1": {
     "Title": "Nightmare Alley",
