@@ -1,4 +1,3 @@
-# data comes from http://www.omdbapi.com made by Brian Fritz. All content licensed under CC BY-NC 4.0.
 
 from flask import Flask
 from flask_cors import CORS
